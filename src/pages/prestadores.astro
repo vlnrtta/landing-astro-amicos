@@ -13,11 +13,11 @@ const posts = await response.json();
         <Header />
 		<Background />
         
-        <div id="atencion" class="mt-40 mb-12 px-12 w-[650px] sm:w-full">
+        <div id="atencion" class="mt-32 mb-12 px-12 w-[650px] sm:w-full">
             <p class="text-xl font-semibold text-green-700">Prestadores</p>
             <hr class="border-green-600" />
         </div>
-        <div class="w-[650px] sm:w-[680px] shadow-2xl rounded-lg mx-auto sm:mt-20 mt-28 sm:py-4 px-2">
+        <div class="w-[630px] sm:w-[680px] shadow-2xl rounded-lg mx-auto sm:mt-20 py-2 mt-28 sm:py-4 px-2">
             <div class="flex flex-column sm:flex-row flex-wrap space-y-4 sm:space-y-0 items-center justify-between pb-4">
                 <div>
                     <button id="dropdownRadioButton" data-dropdown-toggle="dropdownRadio" class="inline-flex items-center text-gray-500 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-3 py-1.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">
@@ -73,7 +73,7 @@ const posts = await response.json();
                     <input type="text" id="table-search" class="block p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search for items">
                 </div>
             </div> 
-            <table class="w-[630px] sm:w-[660px] mx-auto rounded-xl py-4 px-3 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <table class="w-[60px] sm:w-[660px] mx-auto rounded-xl py-4 px-3 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase rounded-xl bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
                         <th scope="col" class="px-6 py-3">
@@ -86,7 +86,7 @@ const posts = await response.json();
                             usuario
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            email
+                            correo electrónico
                         </th>
                     </tr>
                 </thead>
@@ -115,6 +115,6 @@ const posts = await response.json();
                 </tbody>
             </table>
         </div>
-        <Footer class="w-[657px] sm:w-full"/>
+        <Footer class="w-full"/>
 	</main>
 </Layout>
