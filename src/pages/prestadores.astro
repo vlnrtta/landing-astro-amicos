@@ -13,11 +13,11 @@ const posts = await response.json();
         <Header />
 		<Background />
         
-        <div id="atencion" class="mt-32 mb-2 sm:mb-12 px-12 w-[650px] sm:w-full">
+        <div id="atencion" class="mt-28 mb-2 sm:mb-12 px-12 w-[650px] sm:w-full">
             <p class="text-xl font-semibold text-green-700">Prestadores</p>
             <hr class="border-green-600" />
         </div>
-        <div class="w-[630px] sm:w-[680px] shadow-2xl rounded-lg mx-auto sm:mt-20 py-2 mt-28 sm:py-4 px-2">
+        <div class="w-[630px] sm:w-[680px] shadow-2xl rounded-lg mx-auto sm:mt-20 py-2 mt-20 sm:py-4 px-2">
             <div class="flex flex-column sm:flex-row flex-wrap space-y-4 sm:space-y-0 items-center justify-between pb-4">
                 <div>
                     <button id="dropdownRadioButton" data-dropdown-toggle="dropdownRadio" class="inline-flex items-center text-gray-500 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-3 py-1.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" type="button">
@@ -96,16 +96,16 @@ const posts = await response.json();
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                         
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            {post.id}
+                            
                         </th>
                         <td class="px-6 py-4">
-                            {post.name}
+                            
                         </td>
                         <td class="px-6 py-4">
-                            {post.username}
+                            
                         </td>
                         <td class="px-6 py-4">
-                            {post.email}
+                             
                         </td>
                         
                     </tr>
